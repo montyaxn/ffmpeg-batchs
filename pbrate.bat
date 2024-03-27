@@ -1,0 +1,1 @@
+ffmpeg -i %1 -filter:a "asetrate=48000*%2" "%~n1 (%2x rate)%~x1"
