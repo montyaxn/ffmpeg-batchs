@@ -1,2 +1,1 @@
-set "out=%~n1.wav"
-ffmpeg -i %1 %out%
+ffmpeg -i %1 %~n1.wav

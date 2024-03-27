@@ -1,0 +1,1 @@
+ffmpeg -i %1 -hide_banner -filter_complex ebur128 -f null -

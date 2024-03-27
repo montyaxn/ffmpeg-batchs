@@ -1,0 +1,1 @@
+ffmpeg -i %1 -filter:a "loudnorm=I=-14" "%~n1 (-14 lufs)%~x1"
